@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>carrusel de revision</title>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="title">
+          <h1>Our Reviews</h1>
+          <div class="underline"></div>
+        </div>
+        <article class="review">
+          <div class="container__img">
+            <img
+              id="person__img"
+              src="./assets/imagen-chica-final.jpg"
+              alt="imagen-chica"
+            />
+            <span class="bubble__quotes"></span>
+          </div>
+          <div class="infouser">
+            <p id="author" class="infouser__name">Nombre</p>
+            <p id="job" class="infouser__job">PROFESION</p>
+            <p id="info" class="infouser__review">Informacion de la review</p>
+          </div>
+
+          <div class="rows">
+            <!-- icono izq  -->
+            <i class="ph-caret-left-bold row prev__btn"></i>
+            <!-- icono der -->
+            <i class="ph-caret-right-bold row next__btn"></i>
+          </div>
+          <button class="surprise__btn">Surprise Me</button>
+        </article>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
