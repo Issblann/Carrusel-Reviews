@@ -23,9 +23,6 @@ body {
   align-items: center;
   background: var(--background);
 }
-main {
-  width: 80%;
-}
 
 .container {
   display: flex;
@@ -43,7 +40,7 @@ main {
   color: var(--blue-dark);
   font-size: 50px;
 
-  /* background: var(--blue-dark); */
+ 
 }
 
 .underline {
@@ -57,7 +54,6 @@ main {
   padding: 30px;
   width: 90%;
   max-width: 900px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,6 +62,7 @@ main {
   border-radius: 20px;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   gap: 30px;
+ 
 }
 
 .review img {
@@ -87,9 +84,16 @@ main {
 .infouser__job {
   color: var(--blue-light);
 }
+
+.infouser__review{
+  font-size: 13px;
+  max-width: 90%;
+  margin: auto;
+}
 .rows {
   display: flex;
   gap: 10px;
+  font-size: 18px;
 }
 .row {
   color: var(--blue-light);
